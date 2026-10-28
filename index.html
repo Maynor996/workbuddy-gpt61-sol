@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WorkBuddy 一键接通 gpt-6.1-sol：MomoAI / TryAllAPI 把最新模型接到桌面</title>
+<meta name="description" content="官方客户端默认列表更新慢？新模型出来却用不了？ 用 WorkBuddy 的自定义供应商，把线路接到 MomoAI 或 TryAllAPI，模型名填 gpt-6.1-sol，桌面端立刻能聊、能写码、能开工具调用——同一套界面，跟上最新 GPT。 下面三张都是实机截图：已经在对话里跑通 gpt-6.1-sol，以及两条可直">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f5f0;--card:#fff;--text:#1a1a1a;--muted:#5c5c5c;--accent:#1a73e8;--border:#e6e2d8;--code-bg:#f0eee8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;font-size:17px;line-height:1.85;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+article{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:2rem 1.75rem 2.5rem;box-shadow:0 8px 30px rgba(0,0,0,.04)}
+h1{font-family:"Noto Serif SC",serif;font-size:clamp(1.55rem,4vw,2rem);line-height:1.4;margin:0 0 1.25rem;font-weight:700}
+h2{font-family:"Noto Serif SC",serif;font-size:1.35rem;margin:2.25rem 0 .9rem;padding-top:.5rem;border-top:1px solid var(--border);font-weight:700}
+h2:first-of-type{border-top:none;padding-top:0}h3{font-size:1.1rem;margin:1.5rem 0 .6rem}
+p{margin:.9rem 0}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+ul,ol{padding-left:1.35rem;margin:.8rem 0}li{margin:.35rem 0}strong{font-weight:700}
+img{display:block;max-width:100%;height:auto;margin:1.1rem auto .35rem;border-radius:10px;border:1px solid var(--border);background:#fafafa}
+pre{background:var(--code-bg);border:1px solid var(--border);border-radius:10px;padding:1rem 1.1rem;overflow-x:auto;font-size:.88rem;line-height:1.55}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.9em;background:var(--code-bg);padding:.1em .35em;border-radius:4px}
+pre code{background:none;padding:0}
+blockquote{margin:1rem 0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--accent);color:var(--muted)}
+table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.95rem}
+th,td{border:1px solid var(--border);padding:.55rem .7rem;text-align:left;vertical-align:top}th{background:#f3f1eb}
+.meta{color:var(--muted);font-size:.92rem;margin-bottom:1.5rem}
+.pages-banner{margin:0 0 1.25rem;padding:.75rem 1rem;background:#eef5ff;border:1px solid #d0e2ff;border-radius:10px;font-size:.95rem}
+footer{margin-top:2rem;padding-top:1rem;border-top:1px solid var(--border);color:var(--muted);font-size:.88rem}
+</style></head><body><div class="wrap"><article>
+<div class="pages-banner">在线阅读（GitHub Pages）：<a href="https://maynor996.github.io/workbuddy-gpt61-sol/">https://maynor996.github.io/workbuddy-gpt61-sol/</a></div>
+<h1>WorkBuddy 一键接通 gpt-6.1-sol：MomoAI / TryAllAPI 把最新模型接到桌面</h1>
+<div class="meta">原文：<a href="https://blog.csdn.net/xianyu120/article/details/168528374">https://blog.csdn.net/xianyu120/article/details/168528374</a></div>
+<p>官方客户端默认列表更新慢？新模型出来却用不了？</p>
+<p>用 <strong>WorkBuddy</strong> 的自定义供应商，把线路接到 <strong>MomoAI</strong> 或 <strong>TryAllAPI</strong>，模型名填 <code>gpt-6.1-sol</code>，桌面端立刻能聊、能写码、能开工具调用——<strong>同一套界面，跟上最新 GPT</strong>。</p>
+<p>下面三张都是实机截图：已经在对话里跑通 <code>gpt-6.1-sol</code>，以及两条可直接复用的接入配置。</p>
+<p>先收藏入口（链接写全，方便下单/开 Key）：</p>
+<ul>
+<li><strong>MomoAI 包月 / 控制台</strong>：https://momoai.asia/home  </li>
+<li><strong>MomoAI 站点</strong>：https://momoai.asia  </li>
+<li><strong>TryAllAPI 全模型 API</strong>：https://tryallapi.com/  </li>
+</ul>
+<blockquote>
+<p>正文不写具体价格；套餐与额度以页面实时显示为准。截图里的 Key 已打码，你只要换成自己的即可。</p>
+</blockquote>
+<h2>一、先看结果：桌面上已经在用 gpt-6.1-sol</h2>
+<p>很多人卡在「配了模型但不确定有没有生效」。WorkBuddy 里有两处一眼能验真：</p>
+<ol>
+<li><strong>回复气泡下方</strong>的模型标签：<code>gpt-6.1-sol</code>  </li>
+<li><strong>输入框右侧</strong>当前选中的模型名：同样是 <code>gpt-6.1-sol</code>  </li>
+</ol>
+<p><img alt="WorkBuddy 对话中使用 gpt-6.1-sol" src="imgs/01.png" /></p>
+<p>左侧还有 <strong>新建任务、助理、项目、专家·技能·连接器、定时任务、资料库</strong>——日常工作流不用换软件，只是把「大脑」换成更新、更强的模型。</p>
+<p><strong>一句话</strong>：配对接线，就能在熟悉的 WorkBuddy 里吃到最新 GPT 能力。</p>
+<h2>二、为什么选 MomoAI / TryAllAPI？</h2>
+<table>
+<thead>
+<tr>
+<th>你的需求</th>
+<th>更合适的入口</th>
+<th>能立刻干什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>想稳定用 GPT 最新档、桌面直接聊</td>
+<td><a href="https://momoai.asia/home">MomoAI</a></td>
+<td>自定义接口 + <code>gpt-6.1-sol</code>，开工具/识图/思考</td>
+</tr>
+<tr>
+<td>想一条 Key 聚合多模型、随时换线</td>
+<td><a href="https://tryallapi.com/">TryAllAPI</a></td>
+<td>同一自定义供应商换模型名，GPT / Gemini 等都能挂</td>
+</tr>
+<tr>
+<td>两个都想留着对比手感</td>
+<td>两个都配</td>
+<td>底部下拉秒切线路，哪条顺手用哪条</td>
+</tr>
+</tbody>
+</table>
+<p>不用等客户端内置上架；<strong>OpenAI 兼容协议</strong>填好就能测通。新模型上架控制台后，往往 <strong>只改模型名称</strong> 就能继续追新。</p>
+<h2>三、3 分钟接入：编辑模型 → 自定义</h2>
+<p>路径：<strong>设置 → 模型</strong>（或模型下拉里的编辑/添加）→ <strong>编辑模型</strong>。</p>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>怎么填才稳</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>供应商</strong></td>
+<td>选 <strong>自定义</strong>（仅 OpenAI 兼容）</td>
+</tr>
+<tr>
+<td><strong>接口地址</strong></td>
+<td>必须写完整 <code>.../v1/chat/completions</code></td>
+</tr>
+<tr>
+<td><strong>API 密钥</strong></td>
+<td>粘贴后点 <strong>测试连接</strong>，通了再保存</td>
+</tr>
+<tr>
+<td><strong>模型名称</strong></td>
+<td><code>gpt-6.1-sol</code>（以控制台实际 ID 为准）</td>
+</tr>
+<tr>
+<td><strong>高级配置</strong></td>
+<td>建议打开 <strong>工具调用、图片输入</strong>；支持思考就勾 <strong>思考模式</strong></td>
+</tr>
+</tbody>
+</table>
+<p>保存 → 回对话 → 底部选中该模型 → 发一条真实任务。看到回复标签变成 <code>gpt-6.1-sol</code>，就算接通成功。</p>
+<h2>四、方案 A（主推）：MomoAI 接 gpt-6.1-sol</h2>
+<p>适合想 <strong>快速用上最新 GPT、桌面体验完整</strong> 的同学。先去 https://momoai.asia/home 开好账号 / Key，再按图填写：</p>
+<ul>
+<li><strong>供应商</strong>：自定义  </li>
+<li><strong>接口地址</strong>：<code>https://momoai.asia/v1/chat/completions</code>  </li>
+<li><strong>API 密钥</strong>：你的 MomoAI Key → <strong>测试连接</strong>  </li>
+<li><strong>模型名称</strong>：<code>gpt-6.1-sol</code>  </li>
+<li><strong>高级配置</strong>：勾选 <strong>工具调用、图片输入、思考模式、允许关闭思考</strong>  </li>
+</ul>
+<p><img alt="用 MomoAI 自定义接口配置 gpt-6.1-sol" src="imgs/02.png" /></p>
+<p><strong>为什么这条线香</strong>：接口一次配好，后面 Sol / Astra 等新 ID 出来，多半只要改模型名；WorkBuddy 侧的项目、定时任务、资料库都能继续用。</p>
+<p>现在就去开通：https://momoai.asia/home  </p>
+<h2>五、方案 B：TryAllAPI 挂最新模型（可与 A 并存）</h2>
+<p>想 <strong>一条 API 玩多家模型</strong>、或给 gpt-6.1-sol 留一条备用线路，用 https://tryallapi.com/ 。截图示例配的是 <code>gemini-3.8-flash</code>，步骤完全一样——接 GPT 时把模型名改成 <code>gpt-6.1-sol</code> 即可。</p>
+<ul>
+<li><strong>供应商</strong>：自定义  </li>
+<li><strong>接口地址</strong>：<code>https://tryallapi.com/v1/chat/completions</code>  </li>
+<li><strong>API 密钥</strong>：TryAllAPI Key → <strong>测试连接</strong>  </li>
+<li><strong>模型名称</strong>：GPT 填 <code>gpt-6.1-sol</code>；也可保留 Gemini 等其它最新 ID 做对照  </li>
+<li><strong>高级配置</strong>：工具调用 / 图片输入按需开；思考模式看该模型是否支持  </li>
+<li><strong>输入 / 输出</strong>：示例 131072 / 65536，可按弹窗默认微调  </li>
+</ul>
+<p><img alt="用 TryAllAPI 自定义接口配置模型" src="imgs/03.png" /></p>
+<p><strong>推荐玩法</strong>：MomoAI 跑主力 <code>gpt-6.1-sol</code>，TryAllAPI 挂第二线路或其它新模型，对话底部一键切换，延迟和效果自己说了算。</p>
+<p>开通聚合 API：https://tryallapi.com/  </p>
+<h2>六、照着点就行的清单</h2>
+<ol>
+<li>打开 https://momoai.asia/home （或 https://tryallapi.com/ ）拿到 Key，确认控制台有 <code>gpt-6.1-sol</code>。  </li>
+<li>WorkBuddy → <strong>编辑模型</strong> → 供应商 <strong>自定义</strong>。  </li>
+<li>接口填完整：<br />
+   - MomoAI：<code>https://momoai.asia/v1/chat/completions</code><br />
+   - TryAllAPI：<code>https://tryallapi.com/v1/chat/completions</code>  </li>
+<li>粘贴 Key → <strong>测试连接</strong> → 模型名 <code>gpt-6.1-sol</code> → 勾选能力 → <strong>保存</strong>。  </li>
+<li>新开对话选中该模型；确认回复下方标签一致。  </li>
+</ol>
+<p>配通一次，后面追新模型成本极低。</p>
+<h2>七、避坑（少走弯路）</h2>
+<p><strong>测试连接失败</strong><br />
+接口是否漏了 <code>/v1/chat/completions</code>？Key 是否多空格？网络是否能打开对应站点？</p>
+<p><strong>列表有模型，回复标签却不是它</strong><br />
+底部下拉还停在旧模型——切换后再发一条新消息。</p>
+<p><strong>思考模式没有强度档</strong><br />
+有的模型只支持开/关，属正常；能开工具和识图已经很香。</p>
+<p><strong>想一直跟最新 GPT</strong><br />
+别重装客户端：同一自定义供应商，只改控制台里的新模型 ID。</p>
+<h2>八、收个尾：今天就能用上最新模型</h2>
+<p>WorkBuddy 负责工作流，<strong>MomoAI / TryAllAPI</strong> 负责把 <strong>gpt-6.1-sol</strong> 等最新模型送到你鼠标边。自定义供应商 + 完整接口 + 一次测试连接，桌面端就能开干。</p>
+<ul>
+<li>想稳定追 GPT 最新档 → https://momoai.asia/home  </li>
+<li>想一条 Key 聚合多模型、随时换线 → https://tryallapi.com/  </li>
+<li>站点首页 → https://momoai.asia  </li>
+</ul>
+<p>配好两处验真：<strong>输入框右侧选择器</strong> + <strong>回复下方模型标签</strong>。标签亮起 <code>gpt-6.1-sol</code>，就可以把今天的活丢给它了。</p>
+<footer>镜像自 CSDN @xianyu120 · 内容以原文为准</footer>
+</article></div></body></html>
